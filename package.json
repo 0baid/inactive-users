@@ -1,0 +1,19 @@
+{
+  "name": "inactive-users",
+  "version": "1.0.0",
+  "description": "The users in your system have a lastActivity prop associated with them which gets updated everytime user performs some activity into the system.\r In the file `inactive.js` we're sampling a single user. When the program starts, the user's lastActivity time is set to latest.",
+  "main": "inactive.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0baid/inactive-users.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/0baid/inactive-users/issues"
+  },
+  "homepage": "https://github.com/0baid/inactive-users#readme"
+}

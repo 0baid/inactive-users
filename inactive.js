@@ -7,6 +7,7 @@ const user = {
 
 const inactiveFirstStage = () => {
     console.log("User has been inactive for the past 1-2 minutes");
+    
 }
 
 const inactiveSecondStage = () => {
@@ -17,8 +18,14 @@ const inactiveThirdStage = () => {
     console.log("User has been inactive for the past 5-6 minutes");
 }
 
+const interval = () => {
+    setTimeout(inactiveFirstStage,12000);
+    setTimeout(inactiveSecondStage,18000);
+    setTimeout(inactiveThirdStage,300000);
+}
+
 
 // this is the main method that acts like a worker and runs every 1 minute
 setInterval(function(){
-    // please write your code here
-}, 1000);
+    interval();
+}, 10000);
